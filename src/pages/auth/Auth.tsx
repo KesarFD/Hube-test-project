@@ -200,6 +200,8 @@ const PhoneInput: React.FC<{
                 value={phone}
                 onChange={(e) => onPhoneChange(e.target.value)}
             >
+                {/* InputMask плохо типизирован по этому пришлось доставать старого друга */}
+                {/* @ts-ignore */}
                 {() => (
                     <TextField
                         sx={{
