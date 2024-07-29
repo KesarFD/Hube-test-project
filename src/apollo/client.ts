@@ -29,7 +29,7 @@ const errorLink = onError(({ graphQLErrors, networkError, operation, forward }) 
         return new Observable(observer => {
           refreshTokenFunction(refreshToken).then(newAccessToken => {
             if (newAccessToken) {
-              Cookies.set('accessToken', newAccessToken, { expires: 1 });
+              Cookies.set('accessToken', newAccessToken);
 
               // Retry the failed request
               operation.setContext({
