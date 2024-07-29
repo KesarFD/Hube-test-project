@@ -1,0 +1,168 @@
+.settings-wrapper {
+  width: 100vw;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+    background-color: #fff;
+    padding: 1%;
+    display: flex;
+    justify-content: flex-start; 
+    height: min-content;
+}
+.header-logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container {
+    padding-left: 16%;
+    width: 100%;
+}
+.header-line {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+  
+.title {
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    font-weight: 700; 
+    margin: 0; 
+    width: max-content;
+    letter-spacing: 0.5px;
+    color: #102542;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #F1F4F8;
+  }
+
+  .content-container {
+    padding: 24px 24px 24px 16.7%;
+    max-width: 654px;
+  }
+  
+  .button-block {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 24px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .list-container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list-container li {
+    margin-bottom: 10px;
+  }
+
+.MuiOutlinedInput-root {
+  max-height: 32px;
+}
+
+.comp {
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comp_content h2 {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #8B9DB6;
+  letter-spacing: 1px;
+}
+
+.comp_content p {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #8B9DB6;
+  letter-spacing: 1px;
+}
+
+.comp_input {
+  color: #8B9DB6;
+}
+
+@media (max-width: 745px) {
+  .header {
+    padding: 0;
+  }
+  .container {
+    padding: 60px 48px 48px 24px
+  }
+  .content-container {
+    padding: 24px 48px;
+  }
+
+  html {
+    overflow: visible;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 18px;
+  }
+  .button-block {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .comp {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .content-container {
+    padding: 24px;
+  }
+  .MuiOutlinedInput-root {
+    width: 100%;
+  }
+
+  html {
+    overflow: visible;
+  }
+
+  .MuiButton-root {
+    padding: 5px 12px;
+    background-color: #fff;
+  }
+}

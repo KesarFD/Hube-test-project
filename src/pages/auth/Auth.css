@@ -1,0 +1,231 @@
+#root {
+    background-color: #fff;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.authContainer {
+    width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+}
+.header-auth {
+    padding-top: 16px;
+    padding-left: 16%;
+    margin: 0;
+    width: 84%;
+    padding-bottom: 25px;
+}
+.header-line-auth {
+    width: min-content;
+}
+
+.h1 {
+    font-family: "Nunito", sans-serif;
+}
+
+.input-container {
+    padding-left: 16%;
+    margin: 0;
+    background-color: #F1F4F8;
+    max-width: 50%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: max-content;
+    padding-right: 24px;
+    padding-top: 15px;
+}
+
+.phone-input-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    height: min-content;
+    width: max-content;
+}
+
+.code-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: min-content;
+    height: min-content;
+}
+
+.TextField {
+    background-color: '#fff';
+    font-family: "Nunito" sans-serif;
+    width: 230px;
+    
+}
+
+.MuiOutlinedInput-root {
+    background-color: #fff;
+    font-size: 12px;
+    max-height: 32px;
+    font-weight: 400;
+}
+
+
+.Button {
+    font-family: "Nunito" sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: #2C77DB;
+    min-height: 3px;
+}
+
+
+.woman {
+    position: absolute;
+    left: 60%;
+    top: 5%;
+    pointer-events: none;
+    max-width: 100%;
+    height: auto;
+}   
+.MainLogo {
+    background-image: url(../../../public/assets/SmallLogo.jpg);
+    width: 136px;
+    height: 34px;
+}
+
+@media (max-width: 744px) {
+    .header-auth {
+        padding: 0;
+        margin: 0 auto;
+        padding-top: 270px;
+    }
+    .header-line-auth {
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .header-img {
+        width: 224px;
+        height: 66px;
+    }  
+    .input-container {
+        background-color: #fff;
+        padding: 0;
+        margin: 0 auto;
+        gap: 26px;
+    }
+    .MuiButton-root {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .phone-input-container {
+        flex-direction: column;
+        gap: 15.5px;
+        
+    }
+    .authContainer {
+        width: 100vw;
+        max-height: 100vh;
+        overflow: hidden;
+    }
+    
+    .woman {
+        position: absolute;
+        left: 38%;
+        top: 54.5%;
+        pointer-events: none;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    
+    .MainLogo {
+        background-image: url(../../../public/assets/LargeLogo.jpg);
+        width: 224px;
+        height: 66px;
+    }
+  }
+
+
+  @media (max-width: 743px) {
+    .woman {
+        display: none;
+    }
+    html {
+        overflow: visible
+    }
+
+    .MainLogo {
+        background-image: url(../../../public/assets/MediumLogo.jpg);
+        width: 175px;
+        height: 52px;
+    }
+    .header-auth {
+        padding-top: 90px;
+    }
+    .input-container {
+        max-width: 100%;
+    }
+  }
+
+  @media (max-width: 1082px) {
+    .header-auth {
+        padding: 0;
+        margin: 0 auto;
+        padding-top: 270px;
+    }
+    .header-line-auth {
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .header-img {
+        width: 224px;
+        height: 66px;
+    }  
+    .input-container {
+        background-color: #fff;
+        padding: 0;
+        margin: 0 auto;
+        gap: 26px;
+    }
+    .MuiButton-root {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    .phone-input-container {
+        flex-direction: column;
+        gap: 15.5px;
+        
+    }
+    .authContainer {
+        width: 100vw;
+        max-height: 100vh;
+        overflow: hidden;
+    }
+    
+    .woman {
+        position: absolute;
+        left: 68%;
+        top: 54.5%;
+        pointer-events: none;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    
+    .MainLogo {
+        background-image: url(../../../public/assets/LargeLogo.jpg);
+        width: 224px;
+        height: 66px;
+    }
+  }
