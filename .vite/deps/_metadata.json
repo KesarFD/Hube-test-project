@@ -1,8 +1,133 @@
 {
-  "hash": "f017eaf8",
+  "hash": "50208d85",
   "configHash": "1460a530",
-  "lockfileHash": "e3b0c442",
-  "browserHash": "53215bbf",
-  "optimized": {},
-  "chunks": {}
+  "lockfileHash": "457d4bda",
+  "browserHash": "5013ff2f",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "5d547789",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "d027e37e",
+      "needsInterop": false
+    },
+    "@apollo/client": {
+      "src": "../../node_modules/@apollo/client/index.js",
+      "file": "@apollo_client.js",
+      "fileHash": "ca926498",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "e244974d",
+      "needsInterop": true
+    },
+    "ts-cookies": {
+      "src": "../../node_modules/ts-cookies/src/index.js",
+      "file": "ts-cookies.js",
+      "fileHash": "b7014ab8",
+      "needsInterop": false
+    },
+    "@apollo/client/link/error": {
+      "src": "../../node_modules/@apollo/client/link/error/index.js",
+      "file": "@apollo_client_link_error.js",
+      "fileHash": "031c9856",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Check": {
+      "src": "../../node_modules/@mui/icons-material/Check.js",
+      "file": "@mui_icons-material_Check.js",
+      "fileHash": "10f56e7f",
+      "needsInterop": true
+    },
+    "@mui/material": {
+      "src": "../../node_modules/@mui/material/index.js",
+      "file": "@mui_material.js",
+      "fileHash": "b619e62f",
+      "needsInterop": false
+    },
+    "react-input-mask": {
+      "src": "../../node_modules/react-input-mask/index.js",
+      "file": "react-input-mask.js",
+      "fileHash": "26bca7bc",
+      "needsInterop": true
+    },
+    "@mui/material/Button": {
+      "src": "../../node_modules/@mui/material/Button/index.js",
+      "file": "@mui_material_Button.js",
+      "fileHash": "56240e77",
+      "needsInterop": false
+    },
+    "@emotion/styled": {
+      "src": "../../node_modules/@emotion/styled/dist/emotion-styled.browser.development.esm.js",
+      "file": "@emotion_styled.js",
+      "fileHash": "0a5acd4b",
+      "needsInterop": false
+    },
+    "@mui/icons-material": {
+      "src": "../../node_modules/@mui/icons-material/esm/index.js",
+      "file": "@mui_icons-material.js",
+      "fileHash": "4abc8981",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Payments": {
+      "src": "../../node_modules/@mui/icons-material/Payments.js",
+      "file": "@mui_icons-material_Payments.js",
+      "fileHash": "d9f6ba48",
+      "needsInterop": true
+    },
+    "@mui/icons-material/Wallet": {
+      "src": "../../node_modules/@mui/icons-material/Wallet.js",
+      "file": "@mui_icons-material_Wallet.js",
+      "fileHash": "6da34f94",
+      "needsInterop": true
+    },
+    "@mui/icons-material/Tune": {
+      "src": "../../node_modules/@mui/icons-material/Tune.js",
+      "file": "@mui_icons-material_Tune.js",
+      "fileHash": "fa8233a4",
+      "needsInterop": true
+    },
+    "@mui/icons-material/InsertDriveFileOutlined": {
+      "src": "../../node_modules/@mui/icons-material/InsertDriveFileOutlined.js",
+      "file": "@mui_icons-material_InsertDriveFileOutlined.js",
+      "fileHash": "96586343",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-T7X7XRWM": {
+      "file": "chunk-T7X7XRWM.js"
+    },
+    "chunk-GDE3MHYE": {
+      "file": "chunk-GDE3MHYE.js"
+    },
+    "chunk-EYFJFPLI": {
+      "file": "chunk-EYFJFPLI.js"
+    },
+    "chunk-ZIYUGMGG": {
+      "file": "chunk-ZIYUGMGG.js"
+    },
+    "chunk-DYO6UFNB": {
+      "file": "chunk-DYO6UFNB.js"
+    },
+    "chunk-VNGSKVSK": {
+      "file": "chunk-VNGSKVSK.js"
+    },
+    "chunk-MT6NGTP4": {
+      "file": "chunk-MT6NGTP4.js"
+    },
+    "chunk-65KY755N": {
+      "file": "chunk-65KY755N.js"
+    },
+    "chunk-V4OQ3NZ2": {
+      "file": "chunk-V4OQ3NZ2.js"
+    }
+  }
 }
